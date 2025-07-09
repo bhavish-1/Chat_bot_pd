@@ -1,0 +1,19 @@
+langchain
+ipykernel
+python-dotenv
+
+# Some important langchain libraries
+langchain-community
+pypdf # to load the pdf's!
+beautifulsoup4
+
+langchain-text-splitters # divide text to chunks
+chromadb
+streamlit
+huggingface
+langchain-chroma
+langchain-huggingface
+langchain-groq
+numpy
+torch
+transformers
