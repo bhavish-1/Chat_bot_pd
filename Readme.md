@@ -1,22 +1,24 @@
-Conversational RAG App for PDF QA
-Personal Project
+# Conversational RAG App for PDF QA
 
-A full-stack Retrieval-Augmented Generation (RAG) application that answers context-aware questions from uploaded PDF documents.
+**Personal Project**  
+A full-stack Retrieval-Augmented Generation (RAG) application that enables context-aware question answering from uploaded PDF documents.
 
-Tech Stack
-LLM Integration: Groq API with Gemma-2b
+---
 
-Frameworks: LangChain, ChromaDB, HuggingFace Transformers
+## Tech Stack
 
-Frontend: Streamlit
+- **LLM Integration**: Groq API with Gemma-2b  
+- **Frameworks**: LangChain, ChromaDB, Hugging Face Transformers  
+- **Frontend**: Streamlit  
+- **Containerization**: Docker  
 
-Containerization: Docker
+---
 
-Features
-Built an end-to-end RAG pipeline using LangChain and Groq API (Gemma-2b) to enable context-based question answering from PDF documents.
+## Features
 
-Implemented document chunking, embedding generation using HuggingFace models, and semantic similarity retrieval via ChromaDB.
+- Developed an end-to-end RAG pipeline using LangChain and the Groq API (Gemma-2b) to support context-based QA over PDF content.
+- Implemented document chunking, embedding generation using Hugging Face models, and semantic similarity retrieval via ChromaDB.
+- Integrated context-aware summarization and persistent chat history to improve user experience.
+- Containerized the application using Docker to ensure portability and ease of deployment in cloud environments.
 
-Integrated context-aware summarization and persistent chat history for enhanced UX.
-
-Containerized the entire application using Docker for portability and cloud deployment.
+---
